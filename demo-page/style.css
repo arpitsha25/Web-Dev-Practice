@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&family=Open+Sans&family=Roboto:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.upper-bar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+
+.upper-bar .logo,
+.navitems {
+  width: 50%;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+
+#logo {
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+
+#logo img {
+  height: 100px;
+  justify-content: center;
+}
+
+#navitems ul {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  list-style: none;
+}
+
+#navitems ul li {
+  padding: 0px 20px;
+}
+
+#navitems ul li a {
+  text-decoration: none;
+  padding: 5px 15px;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  background: rgb(0, 0, 0);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 5px;
+  border-radius: 50px;
+}
+
+a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.main {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-color: blue;
+  display: flex;
+}
+
+.main .left,
+.right {
+  display: flex;
+  width: 50%;
+  /* border: 2px solid rgb(0, 0, 0); */
+}
+
+.main .left .content {
+  width: 80%;
+  height: 70%;
+  margin-left: 20%;
+  margin-top: 15%;
+  /* border: 2px sold white; */
+
+}
+
+.main .left .content h2 {
+  color: white;
+  font-size: 30px;
+  padding: 15px 0px 0px 0px;
+  letter-spacing: 2px;
+}
+
+.main .left .content h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.main .left .content p {
+  color: white;
+  padding: 25px 0px;
+  font-size: 20px;
+}
+
+.main .left .content button {
+  font-size: 20px;
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px 15px 5px 15px;
+  border: none;
+  font-weight: bold;
+  color: blue;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.main .right img {
+  height: 80%;
+  margin: 50px;
+}
+
+.counter-container {
+  margin-top: 20px;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.counter {
+  text-align: center;
+}
+
+.counter h3 {
+  padding: 0.5rem 0;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.counter h6 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.images .head h1 {
+  display: block;
+}
+
+.images {
+  background-color: blue;
+}
+
+.images .head {
+  text-align: center;
+}
+
+.images .head h1 {
+  padding: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+.images .images1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.images .images1 .img1 {
+  padding: 30px;
+}
+
+.images .images1 .img1 img {
+  height: 250px;
+  border-radius: 25px;
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.images .images1 .img1 img:hover {
+  box-shadow: 10px 10px 15px white;
+  opacity: 100%;
+}
+
+.clients .header {
+  text-align: center;
+}
+
+.clients .header h1 {
+  font-size: 50px;
+  padding: 30px;
+}
+
+.clients .show-client {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.clients .show-client .cl {
+  padding: 20px;
+}
+
+.clients .show-client .cl img {
+  height: 100px;
+}
+
+.services {
+  height: 900px;
+  background-color: blue;
+}
+
+.services .service-head {
+  text-align: center;
+  padding: 30px;
+}
+
+.services .service-head h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.services .cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services .cont .data {
+  width: 600px;
+  height: 300px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  cursor: pointer;
+  filter: blur(2px);
+
+}
+
+.services .cont .data:hover {
+  filter: blur(0px);
+  box-shadow: 10px 10px 15px white;
+}
+
+.services .cont .data h1 {
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+}
+
+#one {
+  background-image: url("ce.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#two {
+  background-image: url("se.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#three {
+  background-image: url("we.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#four {
+  background-image: url("fe.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.our-team .titles {
+  text-align: center;
+  padding: 30px;
+}
+
+.our-team .titles h1 {
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+.our-team .candidates {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.our-team .candidates .candidate1 {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+  margin: 20px;
+  border-radius: 50%
+}
+
+
+#c1,
+#c3 {
+  background-image: url("f.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#c2,
+#c4 {
+  background-image: url("m.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.contact {
+  height: 600px;
+  background-color: blue;
+}
+
+.contact .hed {
+  text-align: center;
+  padding: 30px;
+}
+
+.contact .hed h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.contact .ft {
+  display: flex;
+
+}
+
+.contact .left1,
+.right1 {
+  width: 50%;
+  height: 400px;
+
+  text-align: center;
+
+}
+
+.contact .left1 h2 {
+  font-size: 35px;
+  color: white;
+  padding: 20px;
+}
+
+.contact .left1 h3 {
+  color: white;
+  padding: 10px;
+}
+
+.contact .left1 .icons {
+  border: 3px solid blue;
+}
+
+
+.contact .ft .left1 .icons i{
+  font-size: 45px;
+  padding: 35px;
+cursor: pointer;
+color: white;
+}
+
+.contact .ft .right1 .hedr h1{
+  color: white;
+  font-size: 35px;
+  padding: 20px;
+}
+
+.contact .ft .right1 .extra i{
+  color: white;
+  font-size: 80px;
+  padding: 20px;
+}
+
+.contact .ft .right1 .extra p{
+color: white;
+font-size: 20px;
+font-weight: bold;
+}
+
+.contact .ft .right1 .form{
+margin: 30px;
+}
+
+.contact .ft .right1 .form input{
+font-size: 20px;
+outline: none;
+width: 50%;
+color: blue;
+}
+
+.contact .ft .right1 .form button{
+  font-size: 20px;
+  width: 20%;
+  color: blue;
+  font-weight: bold;
+}
+
+.contact .footer{
+  text-align: center;
+  font-size: 20px;
+background-color: white;
+}

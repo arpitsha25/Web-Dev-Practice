@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styleLogin.css">
+  <script src="loginscript.js"></script>
+  <title>Login</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="evento_c.png" alt="logo">
+    </div>
+
+  </header>
+  <section>
+    <div class="container" id="container">
+
+      <div class="left" id="left">
+        <div class="tag">
+          <h1>Evento aims to secure</h1>
+          <h1> your happiness</h1>
+        </div>
+        <div class="para">
+          <p>Your happiness is our happiness</p>
+        </div>
+
+        <img src="sc.svg" alt="login">
+      </div>
+
+
+      <div class="right" id="login-page">
+        <div class="main">
+          <h1>Login Credentials</h1>
+        </div>
+        <div class="container2">
+          <label for="uname"><b>Username :</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label for="psw"><b>Password :</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <div class="add">
+            <div class="lef">
+              <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+              <label for="vehicle1"> Remember me</label><br>
+            </div>
+            <div class="rig">
+              <a href="#">Forgot Password?</a>
+            </div>
+
+          </div>
+
+          <button type="submit" id="btn">Login</button>
+          <label>
+
+            <div class="nu">
+              <p>New user? <button id="signup-btn" onclick="show_signup()">SignUp</button>
+            </div>
+        </div>
+      </div>
+
+
+      <div class="right-su" id="signup-page">
+        <div class="main">
+          <h1>Kindly Fill Details</h1>
+        </div>
+        <div class="container2">
+          <label for="uname"><b>Full Name :</b></label>
+          <input type="text" placeholder="Enter Full Name " name="uname" required>
+
+          <label for="uname"><b>Set Username :</b></label>
+          <input type="text" placeholder="Enter Username " name="uname" required>
+
+          <label for="uname"><b>Email ID :</b></label>
+          <input type="email" placeholder="Enter Email ID " name="uname" required>
+
+          <label for="psw"><b>Password :</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <button type="submit" id="btn">SignUp</button>
+          <label>
+
+            <div class="nu">
+              <p>Already have an account? <button id="login-btn" onclick="show_login()">LogIn</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

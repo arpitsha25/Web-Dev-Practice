@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+
+body {
+  background-image: url("hh.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+
+}
+
+.logo{
+margin-top: 50px;
+}
+
+.logo .image {
+
+  text-align: center;
+}
+.logo .image img{
+  height: 100px;
+}
+.loginPage {
+  width: 1000px;
+  height: 400px;
+  top: 30%;
+  left: 20%;
+  position: absolute;
+
+}
+
+.loginPage .log {
+  background-image: linear-gradient(30deg, red, rgb(59, 59, 216));
+  width: 500px;
+  height: 400px;
+  float: right;
+
+}
+
+.loginPage .demo {
+  width: 500px;
+  height: 400px;
+  float: left;
+  background-color: white;
+}
+
+.loginPage .demo .headline {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+
+}
+
+.loginPage .demo .headline h2 {
+  color: blue;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.loginPage .demo .details {
+  padding: 20px;
+}
+
+.loginPage .demo .details p {
+  font-size: 20px;
+}
+
+.loginPage .log .intro {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.loginPage .log .intro h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.loginPage .email {
+  text-align: center;
+  padding: 20px;
+}
+
+.loginPage .log .email label {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.loginPage .log .email input {
+  background-color: transparent;
+  width: 350px;
+  height: 40px;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+
+*:focus {
+  outline: none;
+}
+
+::placeholder {
+  font-size: 18px;
+  opacity: 0.5;
+  color: white;
+}
+
+
+.loginPage .log .password {
+  text-align: center;
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.loginPage .log .password label {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.loginPage .log .password input {
+  background-color: transparent;
+  width: 300px;
+  height: 40px;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+
+
+.loginPage .log .loginbtn {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 40px;
+  display: inline-block;
+
+
+
+}
+
+.loginPage .log .loginbtn button {
+  padding: 10px 60px 10px 60px;
+  background-image: linear-gradient(200deg, rgb(190, 65, 65), rgb(53, 53, 204));
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+
+
+
+}
+
+.loginPage .log .loginbtn button:hover {
+  color: blue;
+  background-image: linear-gradient(200deg, rgb(209, 146, 146), rgb(120, 120, 202));
+}
+
+
+.loginPage .log .signupbtn button:hover {
+  color: blue;
+  background-image: linear-gradient(200deg, rgb(209, 146, 146), rgb(120, 120, 202));
+}
+
+.loginPage .log .signupbtn {
+  text-align: right;
+  display: inline-block;
+  margin-left: 30px;
+
+}
+
+
+.loginPage .log .signupbtn button {
+  padding: 10px 60px 10px 60px;
+  background-image: linear-gradient(200deg, rgb(190, 65, 65), rgb(53, 53, 204));
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.loginPage .log .rem {
+  padding: 10px;
+  margin-left: 30px;
+
+
+}
+
+.loginPage .log .rem input {
+  color: white;
+}
+
+.loginPage .log .rem label {
+  color: white;
+
+}
+
+.loginPage .log .rem a {
+  margin-left: 120px;
+  color: white;
+
+}
+
+.loginPage .log .noacc {
+  padding: 10px;
+  text-align: center;
+}
+
+.loginPage .log .noacc p {
+  color: white;
+
+
+}

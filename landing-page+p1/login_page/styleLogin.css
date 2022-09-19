@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  margin-top: 30px;
+}
+
+.header .logo {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .logo img {
+  height: 100px;
+  text-align: center;
+}
+
+section {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+
+  width: 1000px;
+  height: 500px;
+  display: flex;
+
+}
+
+.container .right {
+
+  border-radius: 25px;
+  width: 50%;
+  height: 100%;
+  padding: 30px;
+
+}
+
+.container .left {
+  padding: 30px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  background-image: linear-gradient(30deg, rgb(196, 45, 45), rgb(72, 72, 180));
+  flex-direction: column;
+  border-radius: 15px;
+
+
+}
+
+.container .left .tag {
+
+  text-align: center;
+
+}
+
+.container .left .tag h1 {
+  font-size: 40px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container .left .para {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+}
+
+.container .left .para p {
+  font-size: 20px;
+  color: white;
+}
+
+.container .left img {
+  height: 300px;
+}
+
+.container .right .main {
+  text-align: center;
+
+}
+
+.container .right .main h1 {
+  font-size: 40px;
+}
+
+.container .right .container2 {
+  margin-top: 50px;
+}
+
+.container .right .container2 label {
+  font-size: 20px;
+}
+
+::placeholder {
+  font-size: 18px;
+}
+
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-image: linear-gradient(30deg, rgb(196, 45, 45), rgb(72, 72, 180));
+  color: white;
+  padding: 9px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 22px;
+  margin-top: 15px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+.container .container2 .add{
+padding: 20px 0px;
+display: flex;
+justify-content: space-between;
+text-align: center;
+align-items: center;
+}
+.container .container2 .add .rig a{
+  font-size: 18px;
+}
+.container .container2 .add .lef label{
+  font-size: 19px;
+}
+.container .container2 .nu{
+text-align: center;
+padding: 10px;
+}
+.container .container2 .nu p{
+  font-size: 19px;
+}
